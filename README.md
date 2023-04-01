@@ -4,9 +4,10 @@ Criar a imagem docker<p>
 
   
 Edite o arquivo docker-compose.yml de acordo com seus parametros tendo atenção aos:
-            - /sys/fs/cgroup:/sys/fs/cgroup:ro
-            - /volumes_etc:/etc/ffplayout:rw
-            - /volumes_db:/usr/share/ffplayout:rw
-            - /volumes_lib:/var/lib/ffplayout:rw
+<center>    - /sys/fs/cgroup:/sys/fs/cgroup:ro<p>
+            - /volumes_etc:/etc/ffplayout:rw<p>
+            - /volumes_db:/usr/share/ffplayout:rw<p>
+            - /volumes_lib:/var/lib/ffplayout:rw<p>
+</center>   
 Executar imagem docker em background<p>
 <b>docker-compose -f docker-compose.yml up</b><p>
