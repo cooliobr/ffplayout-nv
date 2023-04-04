@@ -1,0 +1,29 @@
+#DEBHELPER#
+
+sysUser="ffpu"
+
+if [ $(id -u $sysUser 2>/dev/null || echo -1) -ge -1 ]; then
+    adduser --system $sysUser
+fi
+
+if [ ! -d "/usr/share/ffplayout/db" ]; then
+    mkdir "/usr/share/ffplayout/db"
+    mkdir -p "/var/lib/ffplayout/playlists"
+    mkdir "/var/lib/ffplayout/tv-media"
+
+    IP=$(hostname -I | cut -d ' ' -f1)
+
+    /usr/bin/ffpapi -i -d "${IP}:8787"
+
+    chown -R ${sysUser}. "/usr/share/ffplayout"
+    chown -R ${sysUser}. "/var/lib/ffplayout"
+    chown -R ${sysUser}. "/etc/ffplayout"
+
+    ln -s "/var/lib/ffplayout/tv-media" "/usr/share/ffplayout/public/"
+fi
+
+if [ ! -d "/var/log/ffplayout" ]; then
+    mkdir "/var/log/ffplayout"
+
+    chown ${sysUser}. "/var/log/ffplayout"
+fi

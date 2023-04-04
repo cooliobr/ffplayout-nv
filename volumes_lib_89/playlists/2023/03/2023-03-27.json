@@ -1,0 +1,126 @@
+{
+  "channel": "Channel 1",
+  "date": "2023-03-27",
+  "program": [
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 5830.367,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 12.042,
+      "duration": 12.042,
+      "source": "/var/lib/ffplayout/tv-media/hallo0022.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 6800.710567,
+      "duration": 6800.710567,
+      "source": "/var/lib/ffplayout/tv-media/Quebrando Regras.mp4"
+    },
+    {
+      "in": 0.0,
+      "out": 3740.572030999989,
+      "duration": 5830.367,
+      "source": "/var/lib/ffplayout/tv-media/O DUELO DOS FORA DA LEI.mp4"
+    }
+  ]
+}
