@@ -2,7 +2,7 @@
 ETC=/mnt/volumes_etc_$1
 DB=/mnt/volumes_db_$1
 LIB=/mnt/volumes_lib_$1
-[ $# -eq 0 ] && { echo "Usage: $0 [project] [TCP_PORT] \n Example: $0 Canal1 8788"; exit 1; }
+[ $# -eq 0 ] && { echo -e "Usage: $0 [project] [TCP_PORT] \nExample: $0 Canal1 8788"; exit 1; }
 echo " ... Criando pastas de destino  "
 sleep 3 
 mkdir -p $ETC
